@@ -1,5 +1,5 @@
 image:
-  repository: rimedo-labs/xapp-demo
+  repository: xapps/xapp-demo
   pullPolicy: IfNotPresent
   tag: v0.0.1
 

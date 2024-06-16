@@ -11,7 +11,7 @@ include ./build/build-tools/make/onf-common.mk
 
 docker:
 	@go mod vendor
-	sudo docker build --network host -f build/Dockerfile -t rimedo-labs/$(XAPPNAME):$(VERSION) . 
+	sudo docker build --network host -f build/Dockerfile -t xapps/$(XAPPNAME):$(VERSION) . 
 	@rm -rf vendor
 
 install-xapp:
