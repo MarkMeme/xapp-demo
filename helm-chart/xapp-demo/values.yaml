@@ -1,5 +1,5 @@
 image:
-  repository: xapps/xapp-demo
+  repository: markmimi/xapp-demo
   pullPolicy: IfNotPresent
   tag: v0.0.1
 
